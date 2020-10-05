@@ -1,0 +1,29 @@
+body {
+    display: grid;
+    place-content: center;
+    height: 100vh;
+  }
+  
+  .visual {
+    height: 100px;
+    width: 100%;
+    background: #FAD346;
+    margin: 0.5rem 0;
+  }
+  
+  .card {
+    width: clamp(23ch, 50vw, 46ch);
+    display: flex;
+    flex-direction: column;
+    background: #14FAD7;
+    padding: 1rem;
+    border: 5px solid #17AD97;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  
+  h1 {
+    text-shadow: 15px 5px 10px black;
+    font-size: 2rem;
+    font-family: monospace;
+  }

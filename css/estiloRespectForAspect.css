@@ -1,0 +1,29 @@
+body {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+  }
+  
+  .visual {
+    aspect-ratio: 16/9;
+    background: #84FA46;
+    margin: 0.5rem 0;
+  }
+  
+  .card {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    background: #FA692D;
+    padding: 1rem;
+    border: 5px solid #AD3D0E;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  body {
+    font-family: system-ui, sans-serif;
+  }
+  
+  h1 {
+    font-size: 1.5rem;
+  }

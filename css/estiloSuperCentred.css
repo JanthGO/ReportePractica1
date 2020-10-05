@@ -1,0 +1,30 @@
+.parent {
+    display: grid;
+    place-items: center;
+    background: #68ff63;
+    width: 500px;
+    height: 500px;
+    resize: both;
+    overflow: auto;
+    margin: 0 auto;
+}
+  
+.child {
+    padding: 1rem;
+    border-radius: 20px;
+    border: 5px solid #ff0000;
+    background: #ffca1b;
+
+    
+}
+  
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+  
+
+.etiqueta{
+  font-size: 1.5rem;
+  text-align: center;
+  text-shadow: 15px 5px 10px black;
+}
